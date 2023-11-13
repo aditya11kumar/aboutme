@@ -1,112 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Kumar - Software Developer</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <style>
-        .container {
-            max-width: 900px;
-        }
-        .profile-pic {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .profile-pic-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
-        .profile-pic-container::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border: 5px solid #f1f1f1;
-            border-radius: 50%;
-            box-sizing: border-box;
-        }
-        body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-h1 {
-  font-size: 2em;
-  font-weight: bold;
-}
-h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-h3 {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  margin-bottom: 0.5em;
-}
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Aditya Kumar - Portfolio</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="profile-pic-container">
-                    <img class="profile-pic" src="1.jpeg" alt="Profile Picture">
-                </div>
-            </div>
-            <div class="col-md-8">
-                <h1>Aditya Kumar</h1>
-                <h2>Software Developer</h2>
-                <p>Email: adityakumar110799@gmail.com</p>
-                <p>Phone: +91 7667025267</p>
-                <p>Location: Bettiah</p>
-                <hr>
-                <h3>Education</h3>
-                <ul>
-                    <li><b>Lovely Professional University Phagwara</b> - B.Tech Computer Science and Engineering (July 2018 - July 2022)</li>
-                    <li><b>GGS Public School Bokaro</b> - PCM 10+2 (July 2015 - July 2017)</li>
-                    <li><b>Assembly of God Church School</b> - CBSE 10th (June 2013 - June 2015)</li>
-                </ul>
-                <h3>Experience</h3>
-                <ul>
-                    <li>Nagarro | Associate Engineer Gurgaon (April 2022 - Present)</li>
-                </ul>
-                <h3>Skills</h3>
-                <ul>
-                    <li>Programming Languages: Python, JavaScript, C++</li>
-                    <li>Libraries/Frameworks: Flask, React JS, Node JS, Next JS</li>
-                    <li>Tools / Platforms: Git, Docker, VS Code</li>
-                    <li>Databases: SqlAlchemy</li>
-                </ul>
-                <h3>Projects / Open-Source</h3>
-                <ul>
-                    <li>Movie Booking System (HTML, CSS, Flask)</li>
-                    <li>Blog website (React JS, Node JS, MongoDB, Express JS, Next JS)</li>
-                </ul>
-                <h3>Certifications</h3>
-                <ul>
-                    <li>React JS - Coding Ninjas Studio</li>
-                    <li>Basics of Java - HackerRank</li>
-                    <li>Data Structure and Algorithm - Udemy</li>
-                </ul>
-                <h3>Honors & Awards</h3>
-                <ul>
-                    <li>Won Chess tournament school</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <header>
+        <h1>Aditya Kumar</h1>
+        <p>Engineer</p>
+    </header>
+
+    <section id="contact">
+        <p>Email: adityakumar110799@gmail.com</p>
+        <p>Phone: 7667025267</p>
+        <p>Location: Bettiah, India</p>
+        <p>Portfolio: <a href="https://aditya11kumar.github.io/aboutme/" target="_blank">aditya11kumar.github.io/aboutme/</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aditya-kumar-90571116a" target="_blank">linkedin.com/in/aditya-kumar-90571116a</a></p>
+        <p>GitHub: <a href="https://github.com/aditya11kumar" target="_blank">github.com/aditya11kumar</a></p>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <p><strong>Engineer</strong></p>
+        <p><em>Nagarro</em></p>
+        <p>04/2022 - Present, Gurgaon</p>
+        <p>Nagarro SE is a digital engineering company that offers a variety of services.</p>
+        
+
+        <h3>DMS- Maruti Suzuki</h3>
+        <p>Worked on React JS for front-end development.</p>
+        <!-- Add relevant information about your role at Maruti Suzuki -->
+    </section>
+
+    <section id="personal-projects">
+        <h2>Personal Projects</h2>
+        <p><strong>Blogging website</strong></p>
+        <p>Developed end-to-end blogging website using React JS as frontend and Node JS with Express JS in backend.</p>
+
+        <p><strong>Trainee Website</strong></p>
+        <p>Developed end-to-end trainee website with Flask as backend while HTML, CSS, and JS as frontend. SQLAlchemy is used as the database.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>B.Tech (Computer Science and Engineering)</strong></p>
+        <p>Lovely Professional University</p>
+        <p>06/2018 - 06/2022, 7.39</p>
+
+        <!-- Add similar blocks for 10+2 and 10th education -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Programming Languages: Python, JavaScript, C++</p>
+        <p>Libraries/Frameworks: Flask, React JS, Node JS, Next JS</p>
+        <p>Tools/Platforms: Git, Docker, VS Code</p>
+        <p>Databases: SqlAlchemy</p>
+    </section>
+    
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Solved more than 500 DSA questions including all platforms.</p>
+        <p>Solved more than 150 DSA questions on LeetCode.</p>
+        <p>Won chess competition in school.</p>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <p><strong>HTML</strong> - <a href="https://files.codingninjas.in/certi_image5561838ee484ce308d4c3de5cebee30eee85a.jpg" target="_blank">Codestudio by Coding Ninjas</a></p>
+        <p><strong>React JS</strong> - <a href="https://files.codingninjas.in/certi_image1305022760aed638017e9c40b15fe1205c0826.jpg" target="_blank">Codestudio by Coding Ninjas</a></p>
+        <p><strong>Data Structure and Algorithm</strong> - <a href="https://www.udemy.com/certificate/UC-589bdcf1-c749-44bb-bf36-75b8a781b505/" target="_blank">Udemy</a></p>
+    </section>
+    
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <p>English - Full Professional Proficiency</p>
+        <p>Hindi - Native or Bilingual Proficiency</p>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>Playing Chess, Listening to Music</p>
+    </section>
+
 </body>
+
 </html>

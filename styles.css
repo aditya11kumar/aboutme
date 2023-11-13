@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#work-experience,
+#personal-projects,
+#projects,
+#education,
+#skills,
+#achievements,
+#certificates,
+#languages,
+#interests,
+#dms {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+#social {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #007BFF;
+}
